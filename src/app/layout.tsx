@@ -14,10 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CONCREPRE - Concreto Premezclado de Calidad Garantizada",
-  description: "Empresa líder en producción y distribución de concreto premezclado en Lima. Calidad garantizada con laboratorio propio y control riguroso.",
-  keywords: ["concreto premezclado", "CONCREPRE", "Lima", "Perú", "construcción", "obra", "cotización"],
-  authors: [{ name: "CONCREPRE" }],
+  title: "CONCRETO ELOHIN S.A.C. - Concreto Premezclado de Calidad Garantizada",
+  description: "CONCRETO ELOHIN S.A.C. - Empresa líder en producción y distribución de concreto premezclado en Lima. Techados, losas, obras viales y más. Calidad garantizada.",
+  keywords: ["concreto premezclado", "CONCRETO ELOHIN", "techado", "losa", "Lima", "Perú", "construcción", "obra", "cotización"],
+  authors: [{ name: "CONCRETO ELOHIN S.A.C." }],
 };
 
 export default function RootLayout({

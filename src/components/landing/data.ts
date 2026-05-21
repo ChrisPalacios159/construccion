@@ -1,12 +1,20 @@
 // ============================================================
-// Data file for Concrete Premezclado Landing Pages
+// Data file for Concreto Elohin S.A.C. Landing Page
 // All content separated from components for easy maintenance
 // ============================================================
 
+export const companyName = "CONCRETO ELOHIN S.A.C." as const;
+export const companyShortName = "ELOHIN" as const;
+export const companyEmail = "info@concretoelohin.com" as const;
+export const companyPhone = "+51 999 888 777" as const;
+export const companyLocation = "Villa El Salvador, Lima, Perú" as const;
+
 export const navItems = [
   { label: "Concreto Premezclado", href: "#concreto" },
+  { label: "Necesitas Techar", href: "#techar" },
   { label: "Nuestras Plantas", href: "#plantas" },
   { label: "Proyectos Realizados", href: "#proyectos" },
+  { label: "Galería", href: "#galeria" },
 ] as const;
 
 export const socialLinks = [
@@ -200,7 +208,7 @@ export const formFields = [
   { name: "telefono", label: "Teléfono", type: "tel", placeholder: "Ingrese su número de teléfono" },
   { name: "correo", label: "Correo electrónico", type: "email", placeholder: "Ingrese su correo electrónico" },
   { name: "distrito", label: "Distrito", type: "text", placeholder: "Ingrese su distrito" },
-  { name: "tipoProyecto", label: "Tipo de proyecto", type: "select", options: ["Vivienda", "Obra comercial", "Obra vial", "Industrial", "Otro"] },
+  { name: "tipoProyecto", label: "Tipo de proyecto", type: "select", options: ["Vivienda", "Obra comercial", "Obra vial", "Industrial", "Techado", "Otro"] },
   { name: "metrosCubicos", label: "Metros cúbicos aproximados", type: "text", placeholder: "Ej: 50 m³" },
   { name: "mensaje", label: "Mensaje", type: "textarea", placeholder: "Cuéntenos sobre su proyecto..." },
 ] as const;
@@ -209,6 +217,94 @@ export const quoteSection = {
   title: "Solicita tu Cotización",
   text: "Realizamos visitas a obras en cualquier punto de Lima para evaluar cuántos metros cúbicos requerirá tu techo, vivienda u obra. Llena el formulario y nos pondremos en contacto contigo.",
   cta: "Solicitar Cotización",
+} as const;
+
+// ========== NEW SECTIONS ==========
+
+export const roofingSection = {
+  title: "¿NECESITAS TECHAR?",
+  subtitle: "Concreto Elihim S.A.C. te ayuda con el techado de tu vivienda u obra",
+  description: "Ofrecemos concreto premezclado especial para losas aligeradas y losas macizas. Nuestro equipo técnico te asesora en el diseño de mezcla adecuado para tu tipo de techado, garantizando resistencia y durabilidad.",
+  roofingTypes: [
+    {
+      id: "aligerada",
+      name: "Losa Aligerada",
+      description: "Losas con bloques de ladrillo tubular, ideales para viviendas. Menor peso y costo, excelente resistencia.",
+      thickness: "0.20 - 0.30 m",
+      typicalUse: "Viviendas de 1 a 3 pisos",
+    },
+    {
+      id: "maciza",
+      name: "Losa Maciza",
+      description: "Losas de concreto reforzado sin aligeramiento. Mayor resistencia, ideal para cargas pesadas.",
+      thickness: "0.15 - 0.25 m",
+      typicalUse: "Edificios, estacionamientos, tanques",
+    },
+    {
+      id: "reticular",
+      name: "Losa Reticular",
+      description: "Sistema de viguetas en dos direcciones con casetones. Mayor luz libre sin columnas intermedias.",
+      thickness: "0.25 - 0.40 m",
+      typicalUse: "Naves industriales, centros comerciales",
+    },
+  ],
+  calculator: {
+    title: "Calculadora de Concreto ELOHIN",
+    subtitle: "Calcule los metros cúbicos exactos para su proyecto en Lima",
+    fields: [
+      { name: "longitud", label: "Longitud (metros)", placeholder: "Ej: 5.00" },
+      { name: "ancho", label: "Ancho (metros)", placeholder: "Ej: 3.00" },
+      { name: "espesor", label: "Espesor (metros)", placeholder: "Ej: 0.15" },
+    ],
+    cta: "CALCULAR VOLUMEN",
+    resultLabel: "Volumen estimado",
+    recommendationPrefix: "Recomendamos pedir",
+    recommendationSuffix: "m³ (incluyendo 8% de desperdicio)",
+    ctaQuote: "Cotizar este volumen",
+  },
+} as const;
+
+export const gallerySection = {
+  title: "Nuestro Trabajo en Acción",
+  subtitle: "Conoce nuestros proyectos y operaciones de concreto premezclado en Lima",
+  items: [
+    {
+      image: "/images/gallery-bombeo-concreto-ai.webp",
+      title: "Bombeo de Concreto",
+      description: "Bombeo de concreto premezclado en techado residencial con equipo especializado.",
+      category: "Techado",
+    },
+    {
+      image: "/images/techado-concreto-ai.webp",
+      title: "Techado de Vivienda",
+      description: "Vaciado de concreto en losa de techo para vivienda de 2 pisos.",
+      category: "Techado",
+    },
+    {
+      image: "/images/gallery-nocturna-ai.webp",
+      title: "Operación Nocturna",
+      description: "Entrega de concreto premezclado en horario nocturno para obras viales.",
+      category: "Obra Vial",
+    },
+    {
+      image: "/images/proyecto-vial-ai.webp",
+      title: "Proyecto Vial",
+      description: "Pavimentación con concreto premezclado para vías principales.",
+      category: "Obra Vial",
+    },
+    {
+      image: "/images/gallery-acabado-concreto-ai.webp",
+      title: "Acabado Fino",
+      description: "Proceso de pulido y acabado de superficies de concreto.",
+      category: "Acabado",
+    },
+    {
+      image: "/images/laboratorio-calidad-ai.webp",
+      title: "Control de Calidad",
+      description: "Ensayos de resistencia en nuestro laboratorio equipado.",
+      category: "Calidad",
+    },
+  ],
 } as const;
 
 export const images = {
@@ -223,4 +319,10 @@ export const images = {
   concretePour: "/images/concreto-vertido-ai.webp",
   testCylinders: "/images/testigos-concreto-ai.webp",
   urbanNight: "/images/proyecto-urbano-noche-ai.webp",
+  roofingConcrete: "/images/techado-concreto-ai.webp",
+  roofingHouse: "/images/techado-vivienda-ai.webp",
+  roofingSlab: "/images/techado-losa-ai.webp",
+  galleryPumping: "/images/gallery-bombeo-concreto-ai.webp",
+  galleryNight: "/images/gallery-nocturna-ai.webp",
+  galleryFinishing: "/images/gallery-acabado-concreto-ai.webp",
 } as const;

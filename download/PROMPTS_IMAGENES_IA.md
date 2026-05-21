@@ -1,116 +1,162 @@
-# Prompts de Imágenes IA - CONCREPRE Landing Pages
+# Prompts de Imágenes IA - CONCRETO ELOHIN S.A.C.
 
 A continuación se detallan los prompts utilizados para generar cada imagen con IA. Todas las imágenes fueron generadas usando el modelo de generación de imágenes de z-ai.
 
 ---
 
-## 1. hero-concreto-industrial-ai.webp
+## Imágenes Originales (Landing Page)
+
+### 1. hero-concreto-industrial-ai.webp
 **Tamaño:** 1344x768  
 **Prompt:**
 ```
 Aerial view of a large modern concrete batching plant facility at golden hour, industrial buildings with silos, conveyor belts, and mixer trucks lined up, professional architectural photography, dramatic sky, premium quality, photorealistic
 ```
-**Uso:** Hero principal de Versión 1 (Corporativo Industrial Premium)
+**Uso:** Hero principal
 
 ---
 
-## 2. hero-comercial-ai.webp
-**Tamaño:** 1344x768  
-**Prompt:**
-```
-Happy family in front of their new modern home under construction, concrete mixer truck in background, warm sunlight, residential neighborhood, professional lifestyle photography, photorealistic, high quality
-```
-**Uso:** Hero principal de Versión 2 (Comercial Moderno)
-
----
-
-## 3. hero-tech-innovation-ai.webp
-**Tamaño:** 1344x768  
-**Prompt:**
-```
-Futuristic smart concrete production facility with digital displays, IoT sensors, automated robotic systems, blue LED lighting, high-tech industrial environment, cyberpunk industrial aesthetic, photorealistic, high quality
-```
-**Uso:** Hero principal de Versión 3 (Tecnológico e Innovador)
-
----
-
-## 4. mixer-concreto-ai.webp
+### 2. mixer-concreto-ai.webp
 **Tamaño:** 1344x768  
 **Prompt:**
 ```
 Modern concrete mixer truck driving on a highway with city skyline in background, professional automotive photography, motion blur on wheels, golden hour lighting, premium quality, photorealistic
 ```
-**Uso:** Sección de Concreto Premezclado (Versiones 2 y 3)
+**Uso:** Sección de Concreto Premezclado
 
 ---
 
-## 5. planta-concreto-ai.webp
+### 3. planta-concreto-ai.webp
 **Tamaño:** 1344x768  
 **Prompt:**
 ```
 Modern concrete batching plant interior with automated control systems, steel silos and conveyor belts, clean industrial environment, professional architectural photography, wide angle, photorealistic, high quality
 ```
-**Uso:** Sección Nuestras Plantas (todas las versiones)
+**Uso:** Sección Nuestras Plantas
 
 ---
 
-## 6. proyecto-vial-ai.webp
+### 4. proyecto-vial-ai.webp
 **Tamaño:** 1344x768  
 **Prompt:**
 ```
 Large road construction project with freshly poured concrete, heavy machinery, construction workers in safety gear, aerial drone view, professional construction photography, photorealistic, high quality
 ```
-**Uso:** Sección Proyectos Realizados (todas las versiones)
+**Uso:** Sección Proyectos Realizados
 
 ---
 
-## 7. laboratorio-calidad-ai.webp
+### 5. laboratorio-calidad-ai.webp
 **Tamaño:** 1344x768  
 **Prompt:**
 ```
 Modern construction quality control laboratory, technician testing concrete samples with compression machine, scientific instruments, clean professional environment, lab coat and safety equipment, photorealistic, high quality
 ```
-**Uso:** Sección Control de Calidad (todas las versiones)
+**Uso:** Sección Control de Calidad
 
 ---
 
-## 8. proyecto-viviendas-ai.webp
+### 6. proyecto-viviendas-ai.webp
 **Tamaño:** 1344x768  
 **Prompt:**
 ```
 Beautiful modern residential neighborhood with new houses under construction, concrete foundations being poured, workers and mixer trucks, suburban development, photorealistic, high quality, professional photography
 ```
-**Uso:** Sección Proyectos / Hero versión 2
+**Uso:** Sección Proyectos
 
 ---
 
-## 9. concreto-vertido-ai.webp
+### 7. concreto-vertido-ai.webp
 **Tamaño:** 1024x1024  
 **Prompt:**
 ```
 Close-up of wet concrete being poured from a chute, texture detail, construction site, professional macro photography, dramatic lighting, photorealistic, high quality
 ```
-**Uso:** Sección Concreto Premezclado (Versión 1)
+**Uso:** Sección Concreto Premezclado
 
 ---
 
-## 10. testigos-concreto-ai.webp
+### 8. testigos-concreto-ai.webp
 **Tamaño:** 1344x768  
 **Prompt:**
 ```
 Concrete test cylinders in laboratory, compression testing machine, scientific equipment, quality control samples, professional lab photography, photorealistic, high quality
 ```
-**Uso:** Sección Control de Calidad (detalles de laboratorio)
+**Uso:** Sección Control de Calidad
 
 ---
 
-## 11. proyecto-urbano-noche-ai.webp
+### 9. proyecto-urbano-noche-ai.webp
 **Tamaño:** 1344x768  
 **Prompt:**
 ```
 Urban road construction at night, freshly paved concrete street with city lights reflecting, modern infrastructure project, professional photography, cinematic lighting, photorealistic, high quality
 ```
-**Uso:** Sección Proyectos Realizados (variación nocturna)
+**Uso:** Sección Proyectos Realizados
+
+---
+
+## Imágenes de Techado (Sección "¿Necesitas Techar?")
+
+### 10. techado-concreto-ai.webp
+**Tamaño:** 1344x768  
+**Prompt:**
+```
+Modern concrete roof being poured on a residential house under construction, workers smoothing wet concrete on rooftop with trowels, concrete pump truck in background, professional construction photography, photorealistic, high quality
+```
+**Uso:** Sección "¿Necesitas Techar?" - Imagen de vaciado de concreto en techo
+
+---
+
+### 11. techado-vivienda-ai.webp
+**Tamaño:** 1344x768  
+**Prompt:**
+```
+Aerial view of a newly concreted roof on a Peruvian house, smooth gray concrete surface, reinforcing steel bars visible at edges, construction site with mixer truck, warm climate, professional drone photography, photorealistic, high quality
+```
+**Uso:** Sección "¿Necesitas Techar?" - Imagen de techado residencial
+
+---
+
+### 12. techado-losa-ai.webp
+**Tamaño:** 1344x768  
+**Prompt:**
+```
+Construction workers pouring concrete on a building roof slab, concrete pump hose visible, wooden formwork, reinforcing steel mesh, Lima Peru residential construction, professional photography, photorealistic, high quality
+```
+**Uso:** Sección "¿Necesitas Techar?" - Imagen de losa de concreto
+
+---
+
+## Imágenes de Galería (Sección "Nuestro Trabajo en Acción")
+
+### 13. gallery-bombeo-concreto-ai.webp
+**Tamaño:** 1344x768  
+**Prompt:**
+```
+Dramatic close-up of concrete being pumped through a large hose onto a rooftop, wet concrete flowing, construction workers in hard hats and safety vests, professional construction photography, photorealistic, high quality
+```
+**Uso:** Galería - Bombeo de concreto
+
+---
+
+### 14. gallery-nocturna-ai.webp
+**Tamaño:** 1344x768  
+**Prompt:**
+```
+Night time-lapse of concrete mixer trucks at construction site, long exposure with light trails, industrial atmosphere, multiple trucks and equipment, professional photography, cinematic, photorealistic, high quality
+```
+**Uso:** Galería - Operación nocturna
+
+---
+
+### 15. gallery-acabado-concreto-ai.webp
+**Tamaño:** 1344x768  
+**Prompt:**
+```
+Professional construction timelapse scene of concrete finishing, power trowel smoothing concrete floor, sparks of light from polishing, worker operating machinery, high-end construction photography, photorealistic, high quality
+```
+**Uso:** Galería - Acabado fino de concreto
 
 ---
 

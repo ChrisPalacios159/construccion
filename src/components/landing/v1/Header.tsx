@@ -11,7 +11,7 @@ import {
   SheetTitle,
   SheetClose,
 } from '@/components/ui/sheet';
-import { navItems, socialLinks } from '@/components/landing/data';
+import { navItems, socialLinks, companyShortName } from '@/components/landing/data';
 
 const subscribeToScroll = (callback: () => void) => {
   window.addEventListener('scroll', callback, { passive: true });
@@ -42,21 +42,24 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 bg-[#EAB308] rounded-sm flex items-center justify-center">
-              <span className="text-[#0A1628] font-black text-sm">C</span>
+            <div className="w-9 h-9 bg-[#EAB308] rounded-sm flex items-center justify-center">
+              <span className="text-[#0A1628] font-black text-sm">CE</span>
             </div>
-            <span className="text-white font-black text-xl tracking-wider">
-              CONCRE<span className="text-[#EAB308]">PRE</span>
-            </span>
+            <div className="flex flex-col leading-none">
+              <span className="text-white font-black text-base tracking-wider">
+                CONCRETO <span className="text-[#EAB308]">{companyShortName}</span>
+              </span>
+              <span className="text-gray-500 text-[10px] font-medium tracking-widest">S.A.C.</span>
+            </div>
           </a>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-1">
+          <nav className="hidden lg:flex items-center gap-1">
             {navItems.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
-                className="relative px-4 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors group"
+                className="relative px-3 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors group"
               >
                 {item.label}
                 <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-[#EAB308] transition-all duration-300 group-hover:w-3/4" />
@@ -70,7 +73,7 @@ export default function Header() {
           </nav>
 
           {/* Social Icons (Desktop) */}
-          <div className="hidden lg:flex items-center gap-3 ml-4">
+          <div className="hidden xl:flex items-center gap-3 ml-4">
             {socialLinks.map((social) => {
               const Icon = socialIconMap[social.icon as keyof typeof socialIconMap];
               return Icon ? (
@@ -88,7 +91,7 @@ export default function Header() {
 
           {/* Mobile Menu */}
           <Sheet>
-            <SheetTrigger asChild className="md:hidden">
+            <SheetTrigger asChild className="lg:hidden">
               <Button variant="ghost" size="icon" className="text-white hover:bg-white/10">
                 <Menu className="w-6 h-6" />
                 <span className="sr-only">Abrir menú</span>
@@ -96,8 +99,8 @@ export default function Header() {
             </SheetTrigger>
             <SheetContent side="right" className="bg-[#0A1628] border-gray-800 w-[280px]">
               <SheetHeader>
-                <SheetTitle className="text-white font-black text-lg tracking-wider text-left">
-                  CONCRE<span className="text-[#EAB308]">PRE</span>
+                <SheetTitle className="text-white font-black text-base tracking-wider text-left">
+                  CONCRETO <span className="text-[#EAB308]">{companyShortName}</span> <span className="text-gray-500 text-xs">S.A.C.</span>
                 </SheetTitle>
               </SheetHeader>
               <nav className="flex flex-col gap-1 px-4 mt-4">

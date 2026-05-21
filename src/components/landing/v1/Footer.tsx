@@ -1,7 +1,7 @@
 'use client';
 
 import { Facebook, Instagram, Youtube, Phone, Mail, MapPin } from 'lucide-react';
-import { navItems, socialLinks } from '@/components/landing/data';
+import { navItems, socialLinks, companyName, companyShortName, companyEmail, companyPhone, companyLocation } from '@/components/landing/data';
 
 export default function Footer() {
   const socialIconMap = {
@@ -20,12 +20,15 @@ export default function Footer() {
           {/* Company info */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-[#EAB308] rounded-sm flex items-center justify-center">
-                <span className="text-[#0A1628] font-black text-sm">C</span>
+              <div className="w-9 h-9 bg-[#EAB308] rounded-sm flex items-center justify-center">
+                <span className="text-[#0A1628] font-black text-sm">CE</span>
               </div>
-              <span className="text-white font-black text-xl tracking-wider">
-                CONCRE<span className="text-[#EAB308]">PRE</span>
-              </span>
+              <div className="flex flex-col leading-none">
+                <span className="text-white font-black text-base tracking-wider">
+                  CONCRETO <span className="text-[#EAB308]">{companyShortName}</span>
+                </span>
+                <span className="text-gray-500 text-[10px] font-medium tracking-widest">S.A.C.</span>
+              </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
               Empresa líder en producción y distribución de concreto premezclado en Lima.
@@ -34,15 +37,15 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center gap-2 text-gray-400 text-sm">
                 <Phone className="w-4 h-4 text-[#EAB308]" />
-                <span>+51 999 888 777</span>
+                <span>{companyPhone}</span>
               </div>
               <div className="flex items-center gap-2 text-gray-400 text-sm">
                 <Mail className="w-4 h-4 text-[#EAB308]" />
-                <span>info@concrepre.com</span>
+                <span>{companyEmail}</span>
               </div>
               <div className="flex items-start gap-2 text-gray-400 text-sm">
                 <MapPin className="w-4 h-4 text-[#EAB308] mt-0.5" />
-                <span>Villa El Salvador, Lima, Perú</span>
+                <span>{companyLocation}</span>
               </div>
             </div>
           </div>
@@ -111,7 +114,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-gray-500 text-xs">
-            © {new Date().getFullYear()} CONCREPRE. Todos los derechos reservados.
+            © {new Date().getFullYear()} {companyName}. Todos los derechos reservados.
           </p>
           <p className="text-gray-600 text-xs">
             Concreto Premezclado de Calidad Garantizada
